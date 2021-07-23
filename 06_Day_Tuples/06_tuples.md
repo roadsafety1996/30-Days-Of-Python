@@ -1,40 +1,7 @@
-<div align="center">
-  <h1> 30 Days Of Python: Day 6 - Tuples</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
 
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> Second Edition: July, 2021</small>
-</sub>
 
-</div>
-
-[<< Day 5](../05_Day_Lists/05_lists.md) | [Day 7 >>](../07_Day_Sets/07_sets.md)
-
-![30DaysOfPython](../images/30DaysOfPython_banner3@2x.png)
-
-- [Day 6:](#day-6)
-  - [Tuples](#tuples)
-    - [Creating a Tuple](#creating-a-tuple)
-    - [Tuple length](#tuple-length)
-    - [Accessing Tuple Items](#accessing-tuple-items)
-    - [Slicing tuples](#slicing-tuples)
-    - [Changing Tuples to Lists](#changing-tuples-to-lists)
-    - [Checking an Item in a Tuple](#checking-an-item-in-a-tuple)
-    - [Joining Tuples](#joining-tuples)
-    - [Deleting Tuples](#deleting-tuples)
-  - [💻 Exercises: Day 6](#-exercises-day-6)
-    - [Exercises: Level 1](#exercises-level-1)
-    - [Exercises: Level 2](#exercises-level-2)
-
-# Day 6:
-
-## Tuples
+##
+ Tuples
 
 A tuple is a collection of different data types which is ordered and unchangeable (immutable). Tuples are written with round brackets, (). Once a tuple is created, we cannot change its values. We cannot use add, insert, remove methods in a tuple because it is not modifiable (mutable). Unlike list, tuple has few methods. Methods related to tuples:
 
@@ -221,34 +188,4 @@ fruits = ('banana', 'orange', 'mango', 'lemon')
 del fruits
 ```
 
-🌕 You are so brave, you made it to this far. You have just completed day 6 challenges and you are 6 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
-## 💻 Exercises: Day 6
-
-### Exercises: Level 1
-
-1. Create an empty tuple
-2. Create a tuple containing names of your sisters and your brothers (imaginary siblings are fine)
-3. Join brothers and sisters tuples and assign it to siblings
-4. How many siblings do you have?
-5. Modify the siblings tuple and add the name of your father and mother and assign it to family_members
-
-### Exercises: Level 2
-
-1. Unpack siblings and parents from family_members
-1. Create fruits, vegetables and animal products tuples. Join the three tuples and assign it to a variable called food_stuff_tp.
-1. Change the about food_stuff_tp  tuple to a food_stuff_lt list
-1. Slice out the middle item or items from the food_stuff_tp tuple or food_stuff_lt list.
-1. Slice out the first three items and the last three items from food_staff_lt list
-1. Delete the food_staff_tp tuple completely
-1. Check if an item exists in  tuple:
-
-- Check if 'Estonia' is a nordic country
-- Check if 'Iceland' is a nordic country
-
-  ```py
-  nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
-  ```
-
-
-[<< Day 5](../05_Day_Lists/05_lists.md) | [Day 7 >>](../07_Day_Sets/07_sets.md)
