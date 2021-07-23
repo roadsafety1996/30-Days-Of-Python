@@ -1,48 +1,4 @@
-<div align="center">
-  <h1> 30 Days Of Python: Day 25 - Pandas </h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
 
-  <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small>Second Edition: July, 2021</small>
-  </sub>
-
-</div>
-
-[<< Day 24](../24_Day_Statistics/24_statistics.md) | [Day 26 >>](../26_Day_Python_web/26_python_web.md)
-
-![30DaysOfPython](../images/30DaysOfPython_banner3@2x.png)
-
-- [📘 Day 25](#-day-25)
-  - [Pandas](#pandas)
-    - [Installing Pandas](#installing-pandas)
-    - [Importing Pandas](#importing-pandas)
-    - [Creating Pandas Series with Default Index](#creating-pandas-series-with-default-index)
-    - [Creating  Pandas Series with custom index](#creating--pandas-series-with-custom-index)
-    - [Creating Pandas Series from a Dictionary](#creating-pandas-series-from-a-dictionary)
-    - [Creating a Constant Pandas Series](#creating-a-constant-pandas-series)
-    - [Creating a  Pandas Series Using Linspace](#creating-a--pandas-series-using-linspace)
-  - [DataFrames](#dataframes)
-    - [Creating DataFrames from List of Lists](#creating-dataframes-from-list-of-lists)
-    - [Creating DataFrame Using Dictionary](#creating-dataframe-using-dictionary)
-    - [Creating DataFrames from a List of Dictionaries](#creating-dataframes-from-a-list-of-dictionaries)
-  - [Reading CSV File Using Pandas](#reading-csv-file-using-pandas)
-    - [Data Exploration](#data-exploration)
-  - [Modifying a DataFrame](#modifying-a-dataframe)
-    - [Creating a DataFrame](#creating-a-dataframe)
-    - [Adding a New Column](#adding-a-new-column)
-    - [Modifying column values](#modifying-column-values)
-    - [Formating DataFrame columns](#formating-dataframe-columns)
-  - [Checking data types of Column values](#checking-data-types-of-column-values)
-    - [Boolean Indexing](#boolean-indexing)
-  - [Exercises: Day 25](#exercises-day-25)
-  
-# 📘 Day 25
 
 ## Pandas
 
@@ -1200,17 +1156,3 @@ print(df[df['Ages'] < 120])
   </tbody>
 </table>
 
-## Exercises: Day 25
-
-1. Read the hacker_news.csv file from data directory 
-1. Get the first five rows
-1. Get the last five rows
-1. Get the title column as pandas series
-1. Count the number of rows and columns
-    - Filter the titles which contain python
-    - Filter the titles which contain JavaScript
-    - Explore the data and make sense of it
-
-🎉 CONGRATULATIONS ! 🎉
-
-[<< Day 24](../24_Day_Statistics/24_statistics.md) | [Day 26 >>](../26_Day_Python_web/26_python_web.md)
