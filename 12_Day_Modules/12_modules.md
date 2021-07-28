@@ -18,13 +18,11 @@ def generate_full_name(firstname, lastname):
 
 To import the file we use the _import_ keyword and the name of the file only.
 
-```py
 # main.py file
 import mymodule
 print(mymodule.generate_full_name('Asabeneh', 'Yetayeh')
 
 ### Statistics Module
-
 The statistics module provides functions for mathematical statistics of numeric data. The popular statistical functions which are defined in this module: _mean_, _median_, _mode_, _stdev_ etc.
 
 from statistics import * # importing all the statistics modules
@@ -37,7 +35,6 @@ print(stdev(ages))      # ~2.3
 ### Math Module
 Module containing many mathematical operations and constants.
 
-```py
 import math
 print(math.pi)           # 3.141592653589793, pi constant
 print(math.sqrt(2))      # 1.4142135623730951, square root
