@@ -6,19 +6,6 @@ In Python we have lots of built-in functions. Built-in functions are globally av
 
 ![Built-in Functions](../images/builtin-functions.png)
 
-Let us open the Python shell and start using some of the most common built-in functions.
-
-![Built-in functions](../images/builtin-functions_practice.png)
-
-Let us practice more by using different built-in functions
-
-![Help and Dir Built in Functions](../images/help_and_dir_builtin.png)
-
-As you can see from the terminal above, Python has got reserved words. We do not use reserved words to declare variables or functions. We will cover variables in the next section.
-
-I believe, by now you are familiar with built-in functions. Let us do one more practice of built-in functions and we will move on to the next section.
-
-![Min Max Sum](../images/builtin-functional-final.png)
 
 ## Variables
 
@@ -131,16 +118,6 @@ print('Age: ', age)
 print('Married: ', is_married)
 ```
 
-Getting user input using the _input()_ built-in function. Let us assign the data we get from a user into first_name and age variables.
-**Example:**
-
-```py
-first_name = input('What is your name: ')
-age = input('How old are you? ')
-
-print(first_name)
-print(age)
-```
 
 ## Data Types
 
@@ -207,20 +184,4 @@ print(first_name)               # 'Asabeneh'
 first_name_to_list = list(first_name)
 print(first_name_to_list)            # ['A', 's', 'a', 'b', 'e', 'n', 'e', 'h']
 ```
-
-## Numbers
-
-Number data types in Python:
-
-1. Integers: Integer(negative, zero and positive) numbers
-   Example:
-   ... -3, -2, -1, 0, 1, 2, 3 ...
-
-2. Floating Point Numbers(Decimal numbers)
-   Example:
-   ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
-
-3. Complex Numbers
-   Example:
-   1 + j, 2 + 4j, 1 - 1j
 
