@@ -23,10 +23,6 @@ To import the file we use the _import_ keyword and the name of the file only.
 import mymodule
 print(mymodule.generate_full_name('Asabeneh', 'Yetayeh')
 
-## Importing Built-in Modules
-
-Like other programming languages we can also import modules by importing the file/function using the key word _import_. Let's import the common module we will use most of the time. Some of the common built-in modules: _math_, _datetime_, _os_,_sys_, _random_, _statistics_, _collections_, _json_,_re_
-
 ### Statistics Module
 
 The statistics module provides functions for mathematical statistics of numeric data. The popular statistical functions which are defined in this module: _mean_, _median_, _mode_, _stdev_ etc.
