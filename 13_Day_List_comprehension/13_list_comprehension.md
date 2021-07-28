@@ -44,6 +44,10 @@ numbers = [(i, i * i) for i in range(11)]
 print(numbers)                             # [(0, 0), (1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]
 
 
+
+
+
+
 ## Lambda Function
 
 Lambda function is a small anonymous function without a name. It can take any number of arguments, but can only have one expression. Lambda function is similar to anonymous functions in JavaScript. We need it when we want to write an anonymous function inside another function.
