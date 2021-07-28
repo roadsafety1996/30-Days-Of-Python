@@ -92,4 +92,3 @@ Checking an item if it is a member of a list using *in* operator. See the exampl
 fruits = ['banana', 'orange', 'mango', 'lemon']
 does_exist = 'banana' in fruits
 print(does_exist)  #false
-
