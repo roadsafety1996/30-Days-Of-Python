@@ -40,34 +40,4 @@ response = requests.get(url)
 status = response.status_code
 print(status) # 200 means the fetching was successful
 ```
-
-```sh
 200
-```
-
-Using beautifulSoup to parse content from the page
-
-```py
-import requests
-from bs4 import BeautifulSoup
-url = 'https://archive.ics.uci.edu/ml/datasets.php'
-
-response = requests.get(url)
-content = response.content # we get all the content from the website
-soup = BeautifulSoup(content, 'html.parser') # beautiful soup will give a chance to parse
-print(soup.title) # <title>UCI Machine Learning Repository: Data Sets</title>
-print(soup.title.get_text()) # UCI Machine Learning Repository: Data Sets
-print(soup.body) # gives the whole page on the website
-print(response.status_code)
-
-tables = soup.find_all('table', {'cellpadding':'3'})
-# We are targeting the table with cellpadding attribute with the value of 3
-# We can select using id, class or HTML tag , for more information check the beautifulsoup doc
-table = tables[0] # the result is a list, we are taking out data from it
-for td in table.find('tr').find_all('td'):
-    print(td.text)
-```
-
-If you run this code, you can see that the extraction is half done. You can continue doing it because it is part of exercise 1.
-For reference check the [beautifulsoup documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#quick-start)
-
